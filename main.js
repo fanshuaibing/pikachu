@@ -118,7 +118,7 @@ var result = `
   position: absolute;
   left: 50%;
   margin-left: -150px;
-  height: 130px;
+  height: 120px;
   overflow: hidden;
   width: 300px;
   top:58px;
@@ -135,6 +135,10 @@ var result = `
   margin-left: -70px;
   overflow: hidden;     
 }
+
+.preview {
+	height: 61%;
+}
 /* 小舌头  */
 .lowerLip::after{
   content: '';
@@ -147,6 +151,7 @@ var result = `
   margin-left: -60px;
   border-radius: 50%;
 }
+
 /* 好了,这只皮卡丘就画完了,谢谢观看  */
 
 `
