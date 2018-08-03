@@ -134,7 +134,6 @@ var result = `
   overflow: hidden;     
 }
 /* 小舌头  */
-
 .lowerLip::after{
   content: '';
   position: absolute;
