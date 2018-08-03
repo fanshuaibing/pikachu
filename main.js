@@ -117,7 +117,7 @@ var result = `
   bottom: 0;
   position: absolute;
   left: 50%;
-  margin-left: -70px;
+  margin-left: -150px;
   height: 130px;
   overflow: hidden;
   width: 300px;
@@ -131,6 +131,8 @@ var result = `
   border: 2px solid black;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  margin-left: -70px;
   overflow: hidden;     
 }
 /* 小舌头  */
