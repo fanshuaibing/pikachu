@@ -137,7 +137,7 @@ var result = `
 }
 
 .preview {
-	height: 61%;
+	height: 59%;
 }
 /* 小舌头  */
 .lowerLip::after{
