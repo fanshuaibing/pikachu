@@ -86,7 +86,7 @@ var result = `
 
 .upLip{
   width: 70px;
-  height: 23px;
+  height: 24px;
   border:3px solid black;
   position: absolute;
   top: 50px;
@@ -97,6 +97,7 @@ var result = `
 .upLip.left{
   right: 50%;
   border-top:none;
+  background-color:#FEE433;
   border-right: none;
   border-bottom-left-radius: 40px 20px;
   transform: rotate(-23deg);
