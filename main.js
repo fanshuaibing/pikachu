@@ -171,7 +171,7 @@ var result = `
 				duration = 50
 				break
 			case 'fast':
-				duration = 10
+				duration = 20
 				break
 		}
 	})
