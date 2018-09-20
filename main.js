@@ -136,9 +136,6 @@ var result = `
   overflow: hidden;     
 }
 
-.preview {
-	height: 55%;
-}
 /* 小舌头  */
 .lowerLip::after{
   content: '';
@@ -153,6 +150,12 @@ var result = `
 }
 
 /* 好了,这只皮卡丘就画完了，然后还有   */
+.preview {
+  height: 65%;
+}
+#code-wrapper {
+  height: 25%;
+}
 
 
 /* 小姐姐，你好啊！*/
@@ -179,7 +182,6 @@ var result = `
 
 
 
-
 `
 
 !function () {
@@ -191,13 +193,13 @@ var result = `
 			.siblings('.active').removeClass('active')
 		switch (speed) {
 			case 'slow':
-				duration = 100
+				duration = 60
 				break
 			case 'normal':
-				duration = 50
+				duration = 30
 				break
 			case 'fast':
-				duration = 20
+				duration = 10
 				break
 		}
 	})

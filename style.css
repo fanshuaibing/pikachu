@@ -45,7 +45,8 @@ body {
 
 .preview {
 	flex: 1;
-	height: 55%;
+	height: 65%;
+	flex-grow: 1; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,7 +61,7 @@ body {
 .actions {
 	position: absolute;
 	right: 0;
-	top: 20px;
+	top: 10px;
 	display: flex;
 	flex-direction: column;
 }
