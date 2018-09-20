@@ -137,7 +137,7 @@ var result = `
 }
 
 .preview {
-	height: 59%;
+	height: 55%;
 }
 /* 小舌头  */
 .lowerLip::after{
@@ -152,7 +152,20 @@ var result = `
   border-radius: 50%;
 }
 
-/* 好了,这只皮卡丘就画完了,谢谢观看  */
+/* 好了,这只皮卡丘就画完了，然后还有   */
+
+
+/* 小姐姐，你好啊！*/
+
+.words::after{
+  content:'小姐姐,我现在有点喜欢你,这可怎么办啊？';
+  height:10%;
+  width:100%;
+  font-family:Helvetica;
+  font-size:30px; 
+}
+
+
 
 `
 
