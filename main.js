@@ -202,6 +202,7 @@ var result = `
 		}
 	})
 
+   
 	function writeCode(code, fn) {
 		let domCode = document.querySelector('#code');
 		let styleTag = document.querySelector("#styleTag")
